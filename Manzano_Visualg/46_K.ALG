@@ -1,0 +1,44 @@
+Algoritmo "46_k_area_da_residencia"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Elaborar um programa que possibilite calcular a área total de
+//               uma residência (sala, cozinha, banheiro, quartos, área de
+//               serviço, quintal, garagem, etc.). O programa deve solicitar a
+//               entrada do nome, a largura e o comprimento de um determinado
+//               cômodo. Em seguida, deve apresentar a área do cômodo lido e
+//               também uma mensagem solicitando do usuário a confirmação de
+//               continuar calculando novos cômodos. Caso o usuário responda
+//               “NAO”, o programa deve apresentar o valor total acumulado da
+//               área residencial.
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 04/04/2022
+Var
+   // Seção de Declarações das variáveis
+
+   nome, nome_comodo, adcionar_comodo: caracter
+   largura, comprimento, acumulador, area: real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreval ("- Qual o seu nome?")
+   leia (nome)
+   escreval ("- Olá ", nome," Vamos calcular a área total da sua residência:")
+
+   enquanto adcionar_comodo <> ("NAO") faca
+      escreval ("- Qual o nome do cômodo?")
+      leia (nome_comodo)
+      escreval ("- Qual a largura dele?")
+      leia (largura)
+      escreval ("- Qual o comprimento dele?")
+      leia (comprimento)
+      area <- largura * comprimento
+      acumulador <- acumulador + area
+      escreval ("- O/a ", nome_comodo, " possui:", area,"m²")
+      escreval ("- Deseja adicionar mais um cômodo? (escreva 'SIM' ou 'NAO')")
+      leia (adcionar_comodo)
+   fimenquanto
+
+   escreval ("- A área total da sua residência é de:",acumulador,"m²")
+
+Fimalgoritmo
