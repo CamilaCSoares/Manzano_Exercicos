@@ -1,12 +1,12 @@
 Algoritmo "46_h_c°_f°"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que apresente os valores de conversão de
 //               graus Celsius em Fahrenheit, de 10 em 10 graus, iniciando a
 //               contagem em 10 graus Celsius e finalizando em 100 graus
 //               Celsius. O programa deve apresentar os valores das duas
 //               temperaturas.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 04/04/2022
 Var
 

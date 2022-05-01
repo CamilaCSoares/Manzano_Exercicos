@@ -1,6 +1,6 @@
 Algoritmo "46_k_area_da_residencia"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que possibilite calcular a área total de
 //               uma residência (sala, cozinha, banheiro, quartos, área de
 //               serviço, quintal, garagem, etc.). O programa deve solicitar a
@@ -10,7 +10,7 @@ Algoritmo "46_k_area_da_residencia"
 //               continuar calculando novos cômodos. Caso o usuário responda
 //               “NAO”, o programa deve apresentar o valor total acumulado da
 //               área residencial.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 04/04/2022
 Var
    // Seção de Declarações das variáveis

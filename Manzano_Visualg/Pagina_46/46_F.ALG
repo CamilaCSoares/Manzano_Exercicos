@@ -1,12 +1,12 @@
 Algoritmo "46_f_exponenciacao"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que apresente como resultado o valor de
 //               uma potência de uma base qualquer elevada a um expoente
 //               qualquer, ou seja, de BE, em que B é o valor da base e E o
 //               valor do expoente. Observe que neste exercício não pode ser
 //               utilizado o operador de exponenciação do portuguol (^).
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 04/04/2022
 Var
    // Seção de Declarações das variáveis

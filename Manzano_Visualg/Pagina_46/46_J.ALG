@@ -1,10 +1,10 @@
 Algoritmo "46_j_soma_media_pares"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que apresente os resultados da soma e da
 //               média aritmética dos valores pares situados na faixa numérica
 //               de 50 a 70.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 04/04/2022
 Var
    // Seção de Declarações das variáveis

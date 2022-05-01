@@ -1,10 +1,10 @@
 Algoritmo "46_i_soma_media"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que efetue a leitura de 10 valores
 //               numéricos e apresente no final o total do somatório e a média
 //               aritmética dos valores lidos.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 04/04/2022
 Var
    // Seção de Declarações das variáveis
