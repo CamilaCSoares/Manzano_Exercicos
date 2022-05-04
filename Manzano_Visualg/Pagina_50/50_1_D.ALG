@@ -1,6 +1,6 @@
 Algoritmo "50_D"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Professor   : Jailson
 // Descrição   : Elaborar um programa que efetue o cálculo e no final apresente
 //               o somatório do número de grãos de trigo que se pode obter num
 //               tabuleiro de xadrez, obedecendo à seguinte regra: colocar um
@@ -11,7 +11,7 @@ Algoritmo "50_D"
 //               (tendo neste momento 7 grãos), no quarto colocam-se 8 grãos
 //               (tendo-se então 15 grãos) até atingir o sexagésimo quarto
 //               (64o) quadro. Utilize variáveis do tipo real como acumuladores.
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Camila Carla Soares
 // Data atual  : 18/04/2022
 Var
    // Seção de Declarações das variáveis
