@@ -17,7 +17,7 @@ Repositório contendo Exercícios do Manzano propostos pelo professor Jailson do
 - Pg 40, 41, 42, 46 e 50
 - Em Portugol, Javascript e Java
 
-### No total 152 exercícios
+###
 
 <br>
 
