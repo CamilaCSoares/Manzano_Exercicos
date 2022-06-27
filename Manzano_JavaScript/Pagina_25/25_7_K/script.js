@@ -11,4 +11,4 @@ var Reais = Number(prompt("Quantos reais você possui? "))
 
 Dolar = Reais / Cotacao
 
-alert ("Você possui em dolares: "=Dolar+"$")
+alert ("Você possui em dolares: "+Dolar+"$")

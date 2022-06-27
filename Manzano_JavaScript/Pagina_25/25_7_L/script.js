@@ -4,10 +4,11 @@ por diante:
 l) Elaborar um programa que efetue a leitura de três valores (A, B e C) e apresente como resultado final à
 soma dos quadrados dos três valores lidos.</pre>`)
 
+var SomaDoQuadrado = 0;
 
 for (Contador = 1; Contador <=3; Contador++){
     
-    var Numero = Number(prompt("Digite o",Contador,"° valor: "))
+    var Numero = Number(prompt("Digite o "+Contador+"° valor: "))
     
     SomaDoQuadrado = Numero**2 + SomaDoQuadrado
 }

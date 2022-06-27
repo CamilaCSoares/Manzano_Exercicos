@@ -5,13 +5,15 @@ m) Elaborar um programa que efetue a leitura de três valores (A,B e C) e aprese
 quadrado da soma dos três valores lidos.
 </pre>`)
 
+var Soma = 0;
+
 for (Contador = 1; Contador <= 3; Contador++){
 
-    var Numero = Number(prompt("Digite o",Contador,"° valor: "))
+    var Numero = Number(prompt("Digite o "+Contador+"° valor: "))
     
     Soma = Soma + Numero
 }
 
 Quadrado = Soma ** 2
 
-alert("Soma dos quadrados dos três valores lidos é:"+Quadrado)
+alert("Soma dos quadrados dos três valores lidos é: "+Quadrado)
