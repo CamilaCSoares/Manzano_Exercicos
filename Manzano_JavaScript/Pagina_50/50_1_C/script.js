@@ -13,4 +13,4 @@ do{
    
    Contador++
 
-} while (Contador == 201)
+} while (Contador != 201)

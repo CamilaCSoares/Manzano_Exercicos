@@ -20,7 +20,7 @@ while (adcionar_comodo != ("NAO")){
 
     acumulador = acumulador + area
 
-    alert ("- O/a "+ nome_comodo, " possui:"+ area,"m²")
+    alert ("- O/a "+ nome_comodo+ " possui:"+ area+"m²")
 
     var adcionar_comodo = Number(prompt("- Deseja adicionar mais um cômodo? (escreva 'SIM' ou 'NAO')"))
     

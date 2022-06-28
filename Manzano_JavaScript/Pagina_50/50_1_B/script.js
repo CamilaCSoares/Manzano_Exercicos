@@ -9,6 +9,6 @@ do{
     
     Contador = Contador + 2
 
-}while (Contador == 500)
+}while (Contador != 500)
 
 alert("A soma dos valores pares na faixa de 1 até 500 é: "+Soma)

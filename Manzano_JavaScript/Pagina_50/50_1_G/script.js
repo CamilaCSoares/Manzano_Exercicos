@@ -16,16 +16,19 @@ do {
             Fatorial = Contador
             Cont = Fatorial
 
-            do {
-                Cont++
-                Fatorial = Fatorial * Cont
-            } while (Cont = 1)
+            while (Cont != 1) {
+		    	 
+                Cont = Cont - 1;
+                 
+                Fatorial = Fatorial * Cont;
+                
+             } 
         }
 
-        Escreval("O fatorial de"+ Contador+ " é: "+ Fatorial)
+        Escreval("O fatorial de "+ Contador+ " é: "+ Fatorial)
 
     }
 
     Contador++
     
-} while (Contador = 10)
+} while (Contador != 10)

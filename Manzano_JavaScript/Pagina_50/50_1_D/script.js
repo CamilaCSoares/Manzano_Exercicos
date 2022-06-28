@@ -24,4 +24,4 @@ do{
 
     Contadora = Contadora + 1
 
-} while (Contadora > 65)
+} while (Contadora < 65)

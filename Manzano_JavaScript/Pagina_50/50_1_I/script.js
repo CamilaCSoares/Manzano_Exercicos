@@ -15,7 +15,7 @@ do{
         Menor = Numero
     }
 
-} while (Numero < 0)
+} while (Numero > 0)
 
 
 alert ("Numero maior: "+Maior+ " e numero menor: "+Menor)

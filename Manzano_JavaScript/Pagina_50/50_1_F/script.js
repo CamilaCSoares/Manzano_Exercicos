@@ -11,7 +11,7 @@ do{
     Soma = Soma + Numero
     Contador++
 
-} while (Numero < 0)
+} while (Numero > 0)
 
 Media = Soma / Contador
 
