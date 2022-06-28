@@ -9,7 +9,7 @@ var Nome = prompt("Qual o seu nome? ")
 
 var Sexo = prompt("Qual seu sexo? [F/M] ")
 
-if (Sexo.toUpperCase == "F"){
+if (Sexo.toUpperCase() == "F"){
 
     alert("Ilma Sra. "+Nome)
 

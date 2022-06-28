@@ -15,4 +15,4 @@ if (Numero1 > Numero2) {
 }
 
 Diferenca = Maior - Menor
-alert("A diferença o maior número"+Maior+" pelo menor"+Menor+" é: "+Diferenca)
+alert("A diferença o maior número "+Maior+" pelo menor "+Menor+" é: "+Diferenca)

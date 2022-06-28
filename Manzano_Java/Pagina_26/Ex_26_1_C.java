@@ -50,6 +50,8 @@ public class Ex_26_1_C {
 		System.out.print("A porcentagem de votos válidos do 1° Candidato foi: " + PercValidosCand[1]);
 		System.out.print("A porcentagem de votos válidos do 2° Candidato foi: " + PercValidosCand[2]);
 		System.out.print("A porcentagem de votos válidos do 3° Candidato foi: " + PercValidosCand[3]);
+		
+		sc.close();
 	}
 
 }

@@ -15,7 +15,7 @@ Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
 
    contador <- 1
-   escreva ("Digte um número para ter sua tabuada: ")
+   escreva ("Digite um número para ter sua tabuada: ")
    leia (numero)
    enquanto contador <= 10 faca
       resultado <- numero * contador

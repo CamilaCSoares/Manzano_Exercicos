@@ -1,53 +1,5 @@
 document.write(`<pre>3) Indique a saída dos trechos de programas em português estruturado, mostrados abaixo. Para as
-saídas considere os seguintes valores: a=2, b=3, c=5 e d=9.
-A. Resposta: _______________________________________
-se nao(d > 5) entao
-escreva ("x <- (a + b) * d")
-senao
-escreva ("x <- (a-b) /c")
-fimse
-B. Resposta: _______________________________________
-se (a > 2) e (b < 7) entao
-escreva ("x <- (a + 2) * (b - 2)")
-senao
-escreva ("x <- (a + b) / d * (c + d)")
-fimse
-C. Resposta: _______________________________________
-se (a = 2) ou (b < 7) entao
-escreva ("x <- (a + 2) * (b -2)")
-senao
-escreva ("x <- (a + b) / d * (c + d)")
-fimse
-D. Resposta: _______________________________________
-se (a > 2) ou nao(b < 7) entao
-escreva ("x <- a + b - 2")
-senao
-escreva ("x <- a - b")
-fimse
-E. Resposta: _______________________________________
-se nao(a > 2) ou nao(b < 7) entao
-escreva ("x <- a + b")
-senao
-escreva ("x <- a / b")
-fimse
-F. Resposta: _______________________________________
-se nao(a > 3) e nao(b < 5) entao
-escreva ("x <- a + d")
-senao
-escreva ("x <- d / b")
-fimse
-G. Resposta: _______________________________________
-se (c >= 2) e (b <= 7) entao
-escreva ("x <- (a + d) / 2")
-senao
-escreva ("x <- d * c")
-fimse
-H. Resposta: _______________________________________
-se (a >= 2) ou (c <= 1) entao
-escreva ("x <- (a + d) / 2")
-senao
-escreva ("x <- d * c")
-fimse</pre>`)
+saídas considere os seguintes valores: a=2, b=3, c=5 e d=9.</pre>`)
 
 a = 2
 b = 3
@@ -71,7 +23,7 @@ if ((a > 2) && (b < 7)){
 
 
 alert("C. Resposta: ")
-if ((a = 2) || (b < 7)){
+if ((a == 2) || (b < 7)){
    alert ("x <- (a + 2) * (b -2)")
 }else{
    alert ("x <- (a + b) / d * (c + d)")
